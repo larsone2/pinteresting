@@ -1,5 +1,20 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo);
+
 $body-bg:      #2c3e50;
-$navbar-inverse-bg: #ecf0f1;
-$navbar-inverse-link-color: #2c3e50; 
+$font-family-sans-serif: 'Arvo' , 'Helvetica Neue' , Helvetica, Arial, sans-serif; 
+$navbar-default-bg: white;
+$navbar-default-bg: #ecf0f1;
+$navbar-default-link-color: #2c3e50; 
 $brand-primary: #95a5a6;
+$text-color: white;
+$jumbotron-bg: #3498db;
+
 @import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
